@@ -1,6 +1,4 @@
-# trybe_higher_order_functions
-
-<h1> Conceito de higher order functions desenvolvidos durante o curso da Trybe </h1>
+<h2> Conceito de higher order functions desenvolvidos durante o curso da Trybe </h2>
 
 01-Introdução a higher order functions
  - Chamando função dentro de uma função (callback);
