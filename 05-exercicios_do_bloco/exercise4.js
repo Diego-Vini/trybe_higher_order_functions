@@ -1,3 +1,4 @@
+
 const assert = require('assert');
 
 const books = [
@@ -63,47 +64,7 @@ const books = [
   },
 ];
 
-//Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-
-function authorBornIn1947() {
-    return books.find((author) => author.author.birthYear === 1947).author.name;
-  }
-  
-assert.strictEqual(authorBornIn1947(), 'Stephen King');
-
-
-//Retorne o nome do livro de menor nome.
-function smallerName() {
-    let nameBook = books[0].name;
-    // escreva aqui o seu código
-    books.forEach((bookName) => {
-        if(bookName.name.length < nameBook.length) {
-          nameBook = bookName.name
-        }});
-    // Variável nameBook que receberá o valor do menor nome;
-    return nameBook;
-  }
-  
-assert.strictEqual(smallerName(), 'Duna');
-
-// Encontre o primeiro livro cujo nome possui 26 caracteres.
-
-const expectedResult = {
-    author: {
-      birthYear: 1948,
-      name: 'George R. R. Martin',
-    },
-    genre: 'Fantasia',
-    id: 1,
-    name: 'As Crônicas de Gelo e Fogo',
-    releaseYear: 1991,
-  };
-  
-  function getNamedBook() {
-    return books.find(bookName => bookName.name.length === 26)
-  }
-  
-  assert.deepStrictEqual(getNamedBook(), expectedResult);
+// Adicione o código do exercício aqui:
 
 //Ordene os livros por data de lançamento em ordem decrescente.
 const expectedResultSort = [
