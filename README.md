@@ -7,3 +7,7 @@
  - Trabalhando com os métodos forEach, find, some, every e sort;
  - Percorrendo arrays com os métodos;
  - Exercicios do bloco consolidando a aprendizagem;
+ 
+03-Map e filter
+ - Filtrando e retornando dentro de um array objetos especificos com filter;
+ - Retornando um novo array de objetos com o map;
